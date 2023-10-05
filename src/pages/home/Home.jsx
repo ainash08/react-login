@@ -1,8 +1,14 @@
 import React from 'react'
+import {posts} from '../../dummyData.js'
 
 function Home() {
   return (
-    <div>Home</div>
+    <div className='home'>
+        {
+            posts.map((post) => (
+                <span>{post.title}</span>))
+        }
+    </div>
   )
 }
 
