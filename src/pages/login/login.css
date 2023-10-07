@@ -1,0 +1,81 @@
+.login {
+    padding-left: 200px;
+    padding-right: 200px;
+    padding-top: 20px;
+}
+.wrapper {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.1);
+    height: 500px;
+    border-radius: 5px;
+}
+.loginLeft {
+    display: flex;
+    flex-direction: column;
+}
+.loginRight {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.googleBtn,
+.fbBtn,
+.ghBtn {
+    width: 180px;
+    height: 40px;
+    margin-top: 15px;
+    border-radius: 3px;
+    border: none;
+    cursor: pointer;
+}
+.googleBtn {
+    background-color: rgb(223,73,49);
+    color: white;
+}
+.googleBtn img {
+    margin-left: -10px;
+    margin-right: 4px;
+    margin-bottom: -5px;
+}
+.fbBtn {
+    background-color: rgb(80,123,191);
+    color: white;
+}
+.fbBtn img {
+    margin-bottom: -4px;
+    margin-right: 4px;
+    margin-left: -5px;
+}
+.ghBtn {
+    background-color: black;
+    color: white;
+}
+.ghBtn img {
+    margin-bottom: -4px;
+    margin-right: 3px;
+}
+.loginInput,
+.passwordInput {
+    width: 180px;
+    height: 40px;
+    margin-top: 15px;
+    border-radius: 3px;
+    border-width: 1px;
+    padding-left: 10px;
+}
+.loginBtn {
+    width: 160px;
+    height: 40px;
+    margin-top: 15px;
+    background-color: rgb(169,84,169);
+    color: white;
+    border-radius: 3px;
+    border: none;
+    cursor: pointer;
+}
+.login img {
+    width: 20px;
+    object-fit: contain;
+}

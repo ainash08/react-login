@@ -24,9 +24,11 @@
     color: white;
     border-radius: 10px;
     cursor: pointer;
+    margin-left: 120px;
 }
 .card span {
     font-weight: 600;
+    margin-left: 10px;
 }
 .card p {
     padding-left: 10px;
