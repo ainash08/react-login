@@ -1,0 +1,19 @@
+.post {
+    padding-left: 30px;
+    padding-right: 30px;
+}
+.postImg {
+    width: 400px;
+    object-fit: contain;
+    border-radius: 5px;
+}
+.postp1 {
+    font-weight: 600;
+    font-size: 19px;
+}
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    padding-left: 20px;
+    padding-right: 40px;
+}
